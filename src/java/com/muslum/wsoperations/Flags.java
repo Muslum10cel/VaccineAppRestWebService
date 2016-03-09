@@ -1,4 +1,4 @@
-package com.muslumyusuf;
+package com.muslum.wsoperations;
 
 /*
  * To change this license header, choose License Headers in Project Properties.

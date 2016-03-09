@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.muslumyusuf;
+package com.muslum.wsoperations;
 
-import com.config.GenerateVerificationCode;
-import com.config.Configuration;
+import com.muslum.config.GenerateVerificationCode;
+import com.muslum.config.Configuration;
 import com.mysql.jdbc.Connection;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

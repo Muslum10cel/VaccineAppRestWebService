@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.muslum;
+package com.muslum.rest;
 
-import com.muslumyusuf.DBOperations;
+import com.muslum.wsoperations.DBOperations;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.UriInfo;
 import javax.ws.rs.Consumes;
