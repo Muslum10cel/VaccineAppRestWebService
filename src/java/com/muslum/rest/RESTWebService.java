@@ -49,9 +49,13 @@ public class RESTWebService {
      */
     @GET
     @Produces(MediaType.APPLICATION_JSON)
+    @Path("/getJson")
     public String getJson() {
         //TODO return proper representation object
-        throw new UnsupportedOperationException();
+       return "Quote{" +
+                "type='" + "asd" + '\'' +
+                ", value=" + "1" +
+                '}';
     }
 
     /**
@@ -188,5 +192,5 @@ public class RESTWebService {
     @Path("/getVaccinesDetailsOfBaby/{baby_id}")
     public String getVaccinesDetailsOfBaby(@PathParam("baby_id") int baby_id) throws JSONException {
         return operations.getVaccinesDetailsOfBaby(baby_id).toString();
-    }
+    } 
 }
